@@ -1,5 +1,7 @@
 # Ember Testing Examples
 
+[![Coverage Status](https://coveralls.io/repos/github/DennisSmuda/ember-testing/badge.svg?branch=master)](https://coveralls.io/github/DennisSmuda/ember-testing?branch=master)
+
 Test Szenarien mit Ember und Mirage
 
 ## Prerequisites

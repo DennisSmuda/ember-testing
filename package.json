@@ -15,13 +15,15 @@
     "lint:hbs": "ember-template-lint .",
     "lint:js": "eslint .",
     "start": "ember serve",
-    "test": "ember test"
+    "test": "ember test",
+    "coveralls": "cat ./coverage/lcov.info | node node_modules/.bin/coveralls"
   },
   "devDependencies": {
     "@ember/optional-features": "^0.7.0",
     "@glimmer/component": "^0.14.0-alpha.3",
     "babel-eslint": "^8.0.2",
     "broccoli-asset-rev": "^3.0.0",
+    "coveralls": "^3.0.3",
     "ember-auto-import": "^1.2.20",
     "ember-cli": "github:ember-cli/ember-cli#1dc682ea479b084d7f03215c6c554138ed4bf76b",
     "ember-cli-app-version": "^3.2.0",
