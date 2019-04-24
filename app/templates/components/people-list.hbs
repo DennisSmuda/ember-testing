@@ -1,0 +1,14 @@
+{{yield}}
+
+<h3 class="mb-3">
+  {{@title}}
+</h3>
+
+<ul>
+  {{#each @people as |person|}}
+    <li class="my-2">
+      {{person.name}}
+      <button {{action this.showPerson person}}>Action</button>
+    </li>
+  {{/each}}
+</ul>
