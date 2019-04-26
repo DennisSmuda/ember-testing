@@ -1,0 +1,11 @@
+<div class="shadow my-4 p-4 bg-grey">
+  <h4 class="mb-2">Add Somebody</h4>
+  <Input @value={{this.newName}} />
+  <button
+    {{action this.addPerson}}
+    title="Add Person"
+  >
+    + Add
+  </button>
+</div>
+{{yield}}
